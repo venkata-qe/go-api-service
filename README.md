@@ -3,69 +3,74 @@
 GO API Service is a rest API service which has movie endpoints.
 
 ## Installation
-You need to install Go Lang
-
-[Link](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/)
-
-[Link](https://hackersandslackers.com/create-your-first-golang-app/)
-
-[Link](https://medium.com/rungo/working-in-go-workspace-3b0576e0534a)
-
-[Link](https://boyter.org/posts/how-to-start-go-project-2018/)
-
-[Link](https://www.mindbowser.com/creating-your-first-golang-project/)
-
-[Link](https://www.mindbowser.com/creating-your-first-golang-project/)
-
+Install Go Lang
 
 ## Usage
 
+### Start mongod container in docker
+```
+docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.4
+```
+
+### Start the api service
 ```
 go run app.go
 ```
 
-## Project References
-[Link](https://dzone.com/articles/build-restful-api-in-go-and-mongodb)
 
-[Link](https://github.com/mlabouardy/movies-restapi)
+## References
 
-[Link](https://infrastacklabs.wordpress.com/2018/05/18/build-restful-api-in-go-and-mongodb/)
+* [starting-a-go-project](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/)
 
-[Link](https://medium.com/@faygun89/create-rest-api-with-golang-and-mongodb-d38d2e1d9714)
+* [create-your-first-golang-app](https://hackersandslackers.com/create-your-first-golang-app/)
 
-[Link](https://github.com/faygun/go-rest-api)
+* [working-in-go-workspace](https://medium.com/rungo/working-in-go-workspace-3b0576e0534a)
 
-[Link](https://medium.com/better-programming/building-a-restful-api-with-go-and-mongodb-93e59cbbee88)
+* [how-to-start-go-project](https://boyter.org/posts/how-to-start-go-project-2018/)
 
-[Link](https://github.com/farukismailoglu/BookRestApi)
+* [creating-your-first-golang-project](https://www.mindbowser.com/creating-your-first-golang-project/)
 
-[Link](https://hackernoon.com/build-restful-api-in-go-and-mongodb-5e7f2ec4be94)
+* [build-restful-api-in-go-and-mongodb](https://dzone.com/articles/build-restful-api-in-go-and-mongodb)
 
-[Link](https://github.com/brainbreaker/rest-and-go)
+* [movies-restapi](https://github.com/mlabouardy/movies-restapi)
 
-[Link](https://github.com/mlabouardy/movies-restapi)
+* [build-restful-api-in-go-and-mongodb](https://infrastacklabs.wordpress.com/2018/05/18/build-restful-api-in-go-and-mongodb/)
 
-[Link](https://github.com/brainbreaker/rest-and-go)
+* [create-rest-api-with-golang-and-mongodb](https://medium.com/@faygun89/create-rest-api-with-golang-and-mongodb-d38d2e1d9714)
 
-[Link](https://medium.com/rungo/how-to-write-a-simple-go-program-13fd104f3018)
+* [go-rest-api](https://github.com/faygun/go-rest-api)
 
-[Link](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091)
+* [building-a-restful-api-with-go-and-mongodb](https://medium.com/better-programming/building-a-restful-api-with-go-and-mongodb-93e59cbbee88)
 
-[Link](https://thenewstack.io/understanding-golang-packages/#:~:text=The%20package%20%E2%80%9Cmain%E2%80%9D%20tells%20the,main%20function%20in%20the%20package.)
+* [BookRestApi](https://github.com/farukismailoglu/BookRestApi)
 
-[Link](https://hackernoon.com/build-restful-api-in-go-and-mongodb-5e7f2ec4be94)
+* [build-restful-api-in-go-and-mongodb](https://hackernoon.com/build-restful-api-in-go-and-mongodb-5e7f2ec4be94)
 
-[Link](https://github.com/golang-standards/project-layout)
+* [rest-and-go](https://github.com/brainbreaker/rest-and-go)
 
-[Link](https://medium.com/@krisma/gopath-and-goroot-set-up-in-mac-and-in-vscode-cf86d8503e57)
+* [how-to-write-a-simple-go-program](https://medium.com/rungo/how-to-write-a-simple-go-program-13fd104f3018)
 
-[Link](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)
+* [structuring-applications-in-go](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091)
 
-[Link](https://tutorialedge.net/golang/go-project-structure-best-practices/)
+* [understanding-golang-packages](https://thenewstack.io/understanding-golang-packages)
 
-[Link](https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1#.ds38va3pp)
+* [project-layout](https://github.com/golang-standards/project-layout)
 
-[Link]()
+* [gopath-and-goroot-set-up-in-mac-and-in-vscode](https://medium.com/@krisma/gopath-and-goroot-set-up-in-mac-and-in-vscode-cf86d8503e57)
+
+* [go-project-layout](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)
+
+* [go-project-structure-best-practices](https://tutorialedge.net/golang/go-project-structure-best-practices/)
+
+* [standard-package-layout](https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1#.ds38va3pp)
+
+### Docker References
+* [docker-mongodb](https://phoenixnap.com/kb/docker-mongodb)
+* [getting-started-mongodb-docker-container-deployment](https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/)
+* [use-docker-and-python-for-a-mongodb-application](https://kb.objectrocket.com/mongo-db/use-docker-and-python-for-a-mongodb-application-1046)
+* [mongodb-docker-container](https://www.bmc.com/blogs/mongodb-docker-container/)
+* [persistent-databases-using-dockers-volumes-and-mongod](https://medium.com/better-programming/persistent-databases-using-dockers-volumes-and-mongodb-9ac284c25b39)
+* [deploying-mongodb-using-docker](https://severalnines.com/database-blog/deploying-mongodb-using-docker)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
