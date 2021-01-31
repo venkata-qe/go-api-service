@@ -19,6 +19,10 @@ go run app.go
 
 
 ## References
+
+* [resty example tests](https://github.com/basdijkstra/ota-examples/blob/master/golang-resty/zippopotamus_api_suite_test.go)
+* [test example tests](https://www.ontestautomation.com/an-introduction-to-rest-api-testing-in-go-with-resty/)
+
 * [starting-a-go-project](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/)
 * [create-your-first-golang-app](https://hackersandslackers.com/create-your-first-golang-app/)
 * [working-in-go-workspace](https://medium.com/rungo/working-in-go-workspace-3b0576e0534a)

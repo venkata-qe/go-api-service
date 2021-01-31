@@ -1,0 +1,26 @@
+{
+    "name": "Test_GetUs90210_StatusCodeShouldEqual200_WithoutAssert",
+    "status": "passed",
+    "statusDetails": {
+        "message": "",
+        "trace": ""
+    },
+    "steps": null,
+    "start": 1612133659425,
+    "stop": 1612133659755,
+    "uuid": "1e09a7e8-cb30-457d-92f8-b6c738cc8ccf",
+    "historyId": "76c9e01d-c238-4a85-8be8-88fe6085c113",
+    "fullName": "Test_GetUs90210_StatusCodeShouldEqual200_WithoutAssert",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Test_GetUs90210_StatusCodeShouldEqual200_WithoutAssert"
+        },
+        {
+            "name": "package",
+            "value": "github.com.venkata-qe.go-api-service.test"
+        }
+    ],
+    "description": "",
+    "links": null
+}

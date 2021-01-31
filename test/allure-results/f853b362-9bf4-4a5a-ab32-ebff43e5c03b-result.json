@@ -1,0 +1,26 @@
+{
+    "name": "Test_GetUs90210_StatusCodeShouldEqual200",
+    "status": "failed",
+    "statusDetails": {
+        "message": "\nError:      \tNot equal: ",
+        "trace": "\nError Trace:\tapi_test.go:18\nError:      \tNot equal: \nexpected: 201\nactual  : 200\nTest:       \tTest_GetUs90210_StatusCodeShouldEqual200"
+    },
+    "steps": null,
+    "start": 1612133659203,
+    "stop": 1612133659423,
+    "uuid": "f853b362-9bf4-4a5a-ab32-ebff43e5c03b",
+    "historyId": "88374999-3dbc-44d4-9081-1274059b879f",
+    "fullName": "Test_GetUs90210_StatusCodeShouldEqual200",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Test_GetUs90210_StatusCodeShouldEqual200"
+        },
+        {
+            "name": "package",
+            "value": "github.com.venkata-qe.go-api-service.test"
+        }
+    ],
+    "description": "",
+    "links": null
+}
