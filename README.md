@@ -17,6 +17,29 @@ docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.4
 go run app.go
 ```
 
+### Run the tests
+```
+go test -json > json-report.txt
+```
+
+### Generate test reports
+```
+~/go/bin/gotest2allure -f json-report.txt
+[or]
+$GOPATH/bin/gotest2allure -f json-report.txt 
+```
+
+### Generate allure reports
+```
+allure serve allure-results
+```
+
+
+
+
+
+
+
 
 ## References
 
@@ -54,6 +77,9 @@ go run app.go
 * [mongodb-docker-container](https://www.bmc.com/blogs/mongodb-docker-container/)
 * [persistent-databases-using-dockers-volumes-and-mongod](https://medium.com/better-programming/persistent-databases-using-dockers-volumes-and-mongodb-9ac284c25b39)
 * [deploying-mongodb-using-docker](https://severalnines.com/database-blog/deploying-mongodb-using-docker)
+
+### Test Reports
+* [testify](https://github.com/stretchr/testify)
 
 ## Contributing
 
